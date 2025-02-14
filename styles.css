@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    /* padding: 5px; */
+    background-color: #f4f4f4;
+    width: 10rem;
+    height: 10rem;
+}
+
+h4 {
+    color: #0070d2;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #00A1E0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: #0070d2;
+}
